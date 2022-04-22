@@ -1,10 +1,13 @@
+// import 'react-native-gesture-handler';
 import React from "react";
-import {Text} from 'react-native';
+import AppNavContanier from "./navigations";
+
+
+
 
 const App = () =>{
   return(
-  <Text>HELLO WORLD</Text>
-
+    <AppNavContanier></AppNavContanier>
   )
 }
 
